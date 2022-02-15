@@ -6,33 +6,64 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>Hello Amazing World!</h1>
-    <h3>Tutorial Assignment: 1_2_basic_html </h3>
-    <table>
-      <!-- Add your table data here -->
+    <header class="header" data-scroll>
+      <div class="container">
+        <h1>First Tutorial</h1>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <h2>See <a href="https://www.britannica.com/biography/John-Keats">bio's</a> for Keats'story</h2>
+        
+             
+        <p> A thing of beauty is a joy for ever: <br> Its loveliness increases; it will never pass into nothingness;<br> But still will keep a bower quiet for us,<br> 
+            And a sleep full of sweet dreams, <br> And health, and quiet breathing.
+              <hr>
+               <h3>Poem by J. Keats </h3>  
+               <a href= "https://en.wikipedia.org/wiki/List_of_poems_by_John_Keats">
+                <button>Click Here for More Info</button>
+              </a>
+        </p>
+          <img src="keats.jpg" alt="interactivedataviz">
+              <table>
       <tr>
-        <td>Name</td>
-        <td>#verses</td>
+        <td>  Name         </td>
+        <td>  #verses      </td>
+        <td>  Type of Rhyme</td>
         </tr>
         <tr>
           <td>Heroic couplet</td>
-          <td>2 verses</td>
+          <td>2 </td>
+          <td>Normally rhymes AA BB</td>
         </tr>
         <tr>
           <td>Terza Rima</td>
-          <td>3 verses</td>
+          <td>3 </td>
+          <td>Normally rhymes ABA BCB</td>
+        </tr>
+        <tr>
+          <td>Quatrains</td>
+          <td>4 </td>
+          <td>Normally rhymes ABAB or ABBA</td>
         </tr>
         <tr>
           <td>Quintet</td>
-          <td>5 verses</td>
+          <td>5 </td>
+          <td>Rhyme varies</td>
         </tr>
         <tr>
           <td>Sestet </td>
-          <td>6 verses</td>
+          <td>6 </td>
+          <td>Rhyme varies</td>
         </tr>
     </table>
-    <svg>
-      <!-- Add your rectangles in here -->
-    </svg>
-  </body>
+          <svg width="200" height="100">
+        <path d="M 10 10 H 90 V 90 H 10 L 10 10" fill="transparent" stroke="blue"/>
+        <circle cx="10" cy="10" r="0.5" fill="blue"/>
+        <circle cx="90" cy="90" r="0.5" fill="blue"/>
+        <circle cx="90" cy="10" r="0.5" fill="blue"/>
+        <circle cx="10" cy="90" r="0.5" fill="blue"/>
+        <text x="11.5" y="45" fill="Pink">Poem</text>
+        <svg/>
+      </body>
 </html>
