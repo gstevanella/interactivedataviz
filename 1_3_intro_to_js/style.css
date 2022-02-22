@@ -1,23 +1,32 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
+  font-size: 24px;
   padding: 1em;
+  color:rgb(92, 94, 216);
+  background-image: url(sparkle.png);
 }
+ 
 
 h1 {
   font-size: 3em;
+  color: rgba(223, 76, 186, 0.74);
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 3em;
   margin: 0.25em 0;
+  color: rgb(117, 119, 211);
+  font-style: bold;
+  
 }
 
 p {
   font-family: serif;
-  font-size: 1em;
+  font-size: 2em;
 }
 
 section {
   padding: 2em 0;
 }
+
+

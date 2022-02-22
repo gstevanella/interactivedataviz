@@ -5,10 +5,23 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
     <link rel="stylesheet" href="./style.css">
   </head>
+
   <body>
-    <h1>Hello World!</h1>
-    <h3>Tutorial Assignment: 1_3_intro_to_js </h3>
-    <!-- add any HTML you might need here, like a button or a div -->
+   <h1><center>Gemma's magic counter</center></h1>
+   <center>
+    <div>
+        <button onclick="incrementClick()">Let's start the magic count!</button>
+        <button onclick="resetCounter()">Start again</button>
+    </div>
+</center>
+    <div>
+        <center><h3 id="counter-label">0</h3></center>
+        <h3><center>What's your name?</center></h3>
+          <center> <div = id="new-label"> Tell me your name: </div> </center>
+            <center><input id="new-input"/></center>
+            <center><button id="new-button" onclick="UserNameInput()">Click to see your future</button> </center> 
+    </div>
+      
     <script src="main.js"></script>
   </body>
 </html>
