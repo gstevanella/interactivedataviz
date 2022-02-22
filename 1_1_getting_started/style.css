@@ -6,26 +6,25 @@ body {
   overflow: hidden;
   font-family: 'IBM Plex Sans Condensed', sans-serif;
   font-weight: 300;
-  background-color: #6ba1cab6;
+  background-color: #377bafb0;
 }
 
 h1 {
   font-size: 3em;
   margin: 0.25em 0;
-  color:rgba(184, 51, 73, 0.733)
+  color:rgba(15, 57, 148, 0.733)
 }
 
 h3 {
   font-size: 2em;
   margin: 0.25em 0;
-  font-style: italic;
-  color:rgba(184, 51, 73, 0.733)
+  color:rgba(10, 40, 104, 0.815)
 }
 
 p {
   font-size: 1em;
   color: blue;
-  font-style: bold
+  font-style: bold;
 }
 
 .label {
