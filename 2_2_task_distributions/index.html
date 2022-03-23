@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Interactive Data Visualization Tutorial</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h3>Section 2 | Distributions | Task Completed</h3>
+    <h1>Manintenance and Operational Score of NY Agencies by Borough</h1>
+    <div id="container"> </div>
+      <div id="legend">
+        <svg>
+          <text x="50" y="20" style="text-anchor: start; align-items: middle; 
+          font-size: 20px; fill: black;">BROOKLYN</text>
+          
+          <text x="50" y="50" style="text-anchor: start;  align-items: middle; 
+          font-size: 20px; fill: black;">MANHATTAN</text>
+
+          <text x="50" y="80" style="text-anchor: start; align-items: middle; 
+           font-size: 20px; fill: black;">BRONX</text>
+
+          <text x="50" y="110" style="text-anchor: start; align-items: middle;
+          font-size: 20px; fill: black;">QUEENS</text>
+
+          <text x="50" y="140" style="text-anchor: start; align-items: middle;
+          font-size: 20px; fill: black;">STATEN ISLAND</text>
+          
+          <circle cx="39" cy="10" alignment-baseline="middle" r="6" style="fill: green;"></circle>
+          <circle cx="39" cy="40" alignment-baseline="middle" r="6" style="fill: blue;"></circle>
+          <circle cx="39" cy="70" alignment-baseline="middle" r="6" style="fill: red;"></circle>
+          <circle cx="39" cy="100" alignment-baseline="middle" r="6" style="fill:orange;"></circle>
+          <circle cx="39" cy="130" alignment-baseline="middle" r="6" style="fill:yellow;"></circle>
+        </svg>
+      </div>
+
+    <script src="../lib/d3.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

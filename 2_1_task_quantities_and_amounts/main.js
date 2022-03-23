@@ -45,6 +45,11 @@ svg.append("g")
 svg.append("g")
     .attr("transform", `translate(${margin.left - 0.5},0)`)
     .call(yAxis)
+      .selectAll("text")  
+      .style("text-anchor", "end")
+      .attr("dx", "-.8em")
+      .attr("dy", ".15em")
+      .attr("transform", "rotate(-20)");
 
   //SEKECT JOIN DRAW - data is how we name the data table
 svg.selectAll("rect") //select all the data
