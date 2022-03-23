@@ -1,0 +1,55 @@
+body {
+  font-family:  'Smooch Sans', sans-serif;
+  font-size: 30
+  px;
+  padding: 1em;
+  text-align: center;
+
+    }
+
+
+h1 {
+  font-family: 'Smooch Sans', sans-serif;
+  font-size: 3em;
+  margin: 0.25em 0;
+ 
+}
+
+h3 {
+  font-family:'Smooch Sans', sans-serif;
+  font-size: 2em;
+  margin: 0.25em 0;
+  text-align: center
+}
+
+
+p {
+  background-color: cornflowerblue;
+  font-family: 'Smooch Sans', sans-serif;
+  font-size: 1.75em;
+  text-align: center
+}
+
+#container > .primary-axis {
+  grid-area: primary-axis;
+
+}
+
+div {
+  width: width;
+  height: height;
+  display: block;
+  position: relative;
+}
+
+div::after {
+  content: "";
+  background: url(water.jpg);
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
