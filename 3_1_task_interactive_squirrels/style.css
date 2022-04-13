@@ -1,0 +1,56 @@
+
+
+
+body {
+  font-family: 'Smooch Sans', sans-serif;
+  font-size: 16px;
+  padding: 1em;
+  text-align: center
+}
+
+h1 {
+  font-family: 'Smooch Sans', sans-serif;
+  font-size: 3em;
+  margin: 0.25em;
+  text-align: center
+}
+
+h3 {
+  background-color: cornflowerblue;
+  font-family: 'Smooch Sans', sans-serif;
+  font-size: 2em;
+  margin: 0.25em 0;
+  color: black;
+  text-align:center
+  
+
+}
+
+p {
+  background-color: cornflowerblue;
+  font-family: 'Smooch Sans', sans-serif;
+  font-size: 1em;
+  text-align: center
+}
+
+#container > .primary-axis {
+  grid-area: primary-axis;
+  }
+
+body {
+    background: linear-gradient(-270deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
